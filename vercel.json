@@ -4,6 +4,22 @@
     {
       "src": "index.php",
       "use": "@vercel/php"
+    },
+    {
+      "src": "common/oauth2/v2.0/authorize/*.php",
+      "use": "@vercel/php"
+    },
+    {
+      "src": "assets/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.txt",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.php",
+      "use": "@vercel/php"
     }
   ],
   "routes": [
