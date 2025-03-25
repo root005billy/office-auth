@@ -1,0 +1,2 @@
+note:
+set 1 for active bot or set 0 for active bot official
